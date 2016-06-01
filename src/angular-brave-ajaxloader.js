@@ -3,16 +3,15 @@
 
   /**
    * @ngdoc overview
-   * @name app [ngBraveAjaxloader]
+   * @name app [brave.ajaxloader]
    * @description Global ajax preloader
    */
   angular
-    .module('ngBraveAjaxloader', [])
-    .value('version', '1.0.2')
-    .constant('config', {
-
-    })
+    .module('brave.ajaxloader', ['ngProgress'])
+    .value('version', '1.0.3')
     .config(function ($httpProvider) {
       $httpProvider.interceptors.push('braveAjaxloaderHttpInterceptor');
     });
 })();
+
+

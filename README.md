@@ -1,12 +1,13 @@
-ngBraveAjaxloader - Customizable preloader for all ajax-requests
+brave.ajaxloader - Customizable preloader for all ajax-requests
 ================================================================
 
 
 Use
 ---
 
-1. Add `ngBraveAjaxloader` to your app modules
-2. Add `<div brave-ajaxloader id="brave-ajaxloader">loading</div>` to HTML body
+1. Add `brave.ajaxloader` to your app modules
+2. Option1: Add `<div brave-ajaxloader id="brave-ajaxloader">loading</div>` to HTML body
+2. Option2: Add `<brave-ajaxloader-progress></brave-ajaxloader-progress>` before body tag
 
 
 Development

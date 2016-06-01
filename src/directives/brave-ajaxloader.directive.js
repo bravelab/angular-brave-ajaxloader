@@ -3,11 +3,11 @@
 
   /**
    * @ngdoc overview
-   * @name app [ngBraveAjaxloader]
+   * @name app [brave.ajaxloader]
    * @description braveAjaxloader directive
    */
   angular
-    .module('ngBraveAjaxloader')
+    .module('brave.ajaxloader')
     .directive('braveAjaxloader', function () {
       return function ($scope, element) {
         $scope.$on('braveAjaxloader:show', function () {

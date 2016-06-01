@@ -3,17 +3,17 @@
 
   /**
    * @ngdoc overview
-   * @name ngBraveAjaxloader
-   * @description ngBraveAjaxloader tests
+   * @name brave.ajaxloader
+   * @description brave.ajaxloader tests
    *
    */
-  describe('ngBraveAjaxloader module', function () {
+  describe('brave.ajaxloader module', function () {
 
-    beforeEach(module('ngBraveAjaxloader'));
+    beforeEach(module('brave.ajaxloader'));
 
     describe('value - version', function () {
       it('should return current version', inject(function (version) {
-        expect(version).toEqual('1.0.2');
+        expect(version).toEqual('1.0.3');
       }));
     });
 

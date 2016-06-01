@@ -19,5 +19,8 @@
     "main/bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "ngprogress": "latest"
+  }
 }

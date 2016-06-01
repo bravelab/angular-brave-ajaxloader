@@ -1,3 +1,5 @@
+(function () {
+  'use strict';
 
   var gulp = require('gulp');
   var Server = require('karma').Server;
@@ -76,7 +78,9 @@
   });
 
   gulp.task('watch', function () {
-    gulp.watch(config.lint.src, ['lint', 'test']);
+    gulp.watch(config.lint.src, ['lint', 'test', 'dist']);
   });
 
   gulp.task('default', ['watch']);
+
+})();
