@@ -14,7 +14,7 @@ Development
 -----------
 To run the code in your development environment:
 
-1. Run `git clone --recursive git@bitbucket.org:sizeof/angular-brave-ajaxloader.git angular-brave-ajaxloader`
+1. Run `git clone --recursive git@bravelab.com:bravelab/angular-brave-ajaxloader.git angular-brave-ajaxloader`
 2. Run `npm install`
 3. Run `gulp` for watch changes in code
 
